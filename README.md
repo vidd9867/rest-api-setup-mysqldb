@@ -126,29 +126,35 @@ rest-api-setup
 
    7. **utils:**
 
-   Purpose: Contains utility functions and middleware used across the application.
-   Usage:
-   Provides reusable functions for tasks like authentication, encryption, and token generation.
-   Example:
-   authentication.ts: Middleware for verifying JWT tokens and protecting routes.
-   encrypt.ts: Functions for hashing passwords and generating/verifying JWT tokens.
+      **Purpose**: Contains utility functions and middleware used across the application.
+      
+      **Usage**:
+      Provides reusable functions for tasks like authentication, encryption, and token generation.
+      
+      **Example**:
+      authentication.ts: Middleware for verifying JWT tokens and protecting routes.
+      encrypt.ts: Functions for hashing passwords and generating/verifying JWT tokens.
 
-   8. **app.ts:**
+   9. **app.ts:**
 
-   Purpose: The main application file where middleware, routes, and configurations are set up.
-   Usage:
-   Initializes the Express app.
-   Configures middleware like bodyParser, cors, and authentication.
-   Automatically mounts routes from the controllers folder.
-   Example: Public routes like /authentication/login are defined here.
+      **Purpose**: The main application file where middleware, routes, and configurations are set up.
+      
+      **Usage**:
+      Initializes the Express app.
+      Configures middleware like bodyParser, cors, and authentication.
+      Automatically mounts routes from the controllers folder.
+      
+      **Example**: Public routes like /authentication/login are defined here.
 
-   9. **server.ts:**
-
-   Purpose: The entry point for starting the server.
-   Usage:
-   Imports the Express app from app.ts.
-   Starts the server on the specified port.
-   Example: Logs a message like Server running on http://localhost:3000/ when the server starts.
+   10. **server.ts:**
+   
+      **Purpose**: The entry point for starting the server.
+      
+      **Usage**:
+      Imports the Express app from app.ts.
+      Starts the server on the specified port.
+      
+      **Example**: Logs a message like Server running on http://localhost:3000/ when the server starts.
 
 
 ## License
