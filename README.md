@@ -63,11 +63,6 @@ rest-api-setup
 6. **Entity Generator:**
    ```
    npx typeorm-model-generator -h 127.0.0.1 -d db_name -u username -x password -e mysql -o ./src/entities --noConfig
-   
-## Usage
-
-- The API is set up to handle requests directly through the controller methods defined in `src/controllers/exampleController.ts`.
-- You can extend the functionality by adding more methods to the `ExampleBLL` class in `src/bll/exampleBLL.ts` and corresponding routes in the controller.
 
 ## License
 
