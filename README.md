@@ -66,6 +66,7 @@ rest-api-setup
 
 7. ## Folder Responsibilities
    1. **controllers:**
+      
       **Purpose**: Contains route handlers that process HTTP requests and send responses.
       **Usage**:
       Each file in this folder corresponds to a specific feature or module of the application (e.g., product-list.ts for product-related operations).
