@@ -75,7 +75,7 @@ rest-api-setup
       
       **Example**: In product-list.ts, the post method processes a request to fetch a list of products and sends the response.
    
-   3. **bll (Business Logic Layer):**
+   2. **bll (Business Logic Layer):**
 
       **Purpose**: Contains the core application logic that processes data and enforces business rules.
       
@@ -95,7 +95,7 @@ rest-api-setup
       
       **Example**: eCommerceDAL.ts contains methods like getProductsDetails and saveProduct to interact with the Product and Category tables.
 
-   5. **entities:**
+   4. **entities:**
 
       **Purpose**: Contains TypeORM entity definitions that map database tables to TypeScript classes.
       
@@ -115,7 +115,7 @@ rest-api-setup
       
       **Example**: IUsers.ts defines the structure of user-related data, such as email, password, and uid.
 
-   7. **config:**
+   6. **config:**
 
       **Purpose**: Contains configuration files for the application.
       
@@ -135,7 +135,7 @@ rest-api-setup
       authentication.ts: Middleware for verifying JWT tokens and protecting routes.
       encrypt.ts: Functions for hashing passwords and generating/verifying JWT tokens.
 
-   9. **app.ts:**
+   8. **app.ts:**
 
       **Purpose**: The main application file where middleware, routes, and configurations are set up.
       
@@ -146,7 +146,7 @@ rest-api-setup
       
       **Example**: Public routes like /authentication/login are defined here.
 
-   10. **server.ts:**
+   9. **server.ts:**
    
       **Purpose**: The entry point for starting the server.
       
