@@ -64,6 +64,20 @@ rest-api-setup
    ```
    npx typeorm-model-generator -h 127.0.0.1 -d db_name -u username -x password -e mysql -o ./src/entities --noConfig
 
+7. **Usage:**
+   ```
+   **Summary of Folder Responsibilities:**
+      controllers: Handles HTTP requests and responses.
+      bll: Implements business logic and rules.
+      dal: Interacts with the database.
+      entities: Defines database table structures.
+      interfaces: Provides type definitions for data objects.
+      config: Stores configuration settings.
+      utils: Contains reusable utility functions and middleware.
+      app.ts: Sets up the application.
+      server.ts: Starts the server.
+   ```
+
 ## License
 
 This project is licensed under the MIT License.
