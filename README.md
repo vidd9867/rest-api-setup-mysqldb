@@ -8,11 +8,25 @@ This project is a REST API built using Node.js, Express.js, MongoDB, Mongoose, a
 rest-api-setup
 ├── src
 │   ├── controllers
+│   │   ├── product
+│   │   │   └── product-list.ts
 │   │   └── exampleController.ts
 │   ├── bll
+│   │   ├── eCommerceBLL.ts
 │   │   └── exampleBLL.ts
+│   ├── dal
+│   │   └── eCommerceDAL.ts
+│   ├── entities
+│   │   ├── Category.ts
+│   │   ├── Product.ts
+│   │   └── Users.ts
+│   ├── interfaces
+│   │   └── IUsers.ts
 │   ├── config
 │   │   └── db.ts
+│   ├── utils
+│   │   ├── authentication.ts
+│   │   └── encrypt.ts
 │   ├── app.ts
 │   └── server.ts
 ├── package.json
