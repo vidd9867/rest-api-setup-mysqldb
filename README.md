@@ -48,7 +48,7 @@ rest-api-setup
 
 6. **Entity Generator:**
    ```
-   npx typeorm-model-generator -h 127.0.0.1 -d meandb_main -u root -x Vidd229867* -e mysql -o ./src/entities --noConfig
+   npx typeorm-model-generator -h 127.0.0.1 -d db_name -u username -x password -e mysql -o ./src/entities --noConfig
    
 ## Usage
 
