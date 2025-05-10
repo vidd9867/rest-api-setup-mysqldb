@@ -66,12 +66,11 @@ rest-api-setup
 
 7. ## Folder Responsibilities
    1. **controllers:**
-   
-   Purpose: Contains route handlers that process HTTP requests and send responses.
-   Usage:
-   Each file in this folder corresponds to a specific feature or module of the application (e.g., product-list.ts for product-related operations).
-   Controllers interact with the Business Logic Layer (BLL) to execute application logic.
-   Example: In product-list.ts, the post method processes a request to fetch a list of products and sends the response.
+      Purpose: Contains route handlers that process HTTP requests and send responses.
+      Usage:
+      Each file in this folder corresponds to a specific feature or module of the application (e.g., product-list.ts for product-related operations).
+      Controllers interact with the Business Logic Layer (BLL) to execute application logic.
+      Example: In product-list.ts, the post method processes a request to fetch a list of products and sends the response.
    
    2. **bll (Business Logic Layer):**
    ```
